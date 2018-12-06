@@ -45,89 +45,69 @@
 						</li>   
 						</ul>
 					</div>
+                    </div>
 				</div>
 			</div>
 		</nav>
 		
 	<!---banner -->
-        <div class="container">
-            <div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);">
+	
+			<div class="col-md-12 topored" style=" height:450px">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="container">
-                <h1 style="color:white;">Últimas Analíses</h1>
-                </div>    
+                <p>SEJA O PRIMEIRO A COMENTAR</p>
+                <h1>ANALÍSE RED DEAD REDEMPTION</h1>
+                </div>
             </div>
-        </div>
 
-		<br><br>
+		<br><br><br><br>
 		
 	<!---conteudo-->
 	<div class="container">
-	<div class="col-12">
 		<div class="row">
 		<!--conteudo esquerda-->
 			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
-					<div class="row">
-						<div class="col-5">
-                            <a href="jogos1.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos1.php">Analíse Grand Theft Auto V</a></h1>
-                                <p class="texto1">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É...</p>
-							</div>
-						</div>
+				<div class="container">
+						<div class="col-12">
+                            <div class="texto">
+                                <p class="texto1">Anunciado em 2016 sem precisar fazer barulho em eventos, sem aparição em conferências de E3 ou coisas do tipo, Red Dead Redemption 2 é um prequel do primeiro Red Dead Redemption, lançado em 2010 para PS3 e Xbox 360. Favorita entre muitos fãs da Rockstar e aclamada mundialmente, a aventura de John Marston é tida como uma das melhores experiências de faroeste nos games.</p>
+                                <br>
+                                <p class="texto1">Red Dead Redemption 2 se propõe a oferecer uma jornada que se passa em 1899, precisamente 12 anos antes do anterior, na virada do século, com outro protagonista: Arthur Morgan, um fora-da-lei do bando de Dutch Van Der Linde, do qual John Marston também faz parte.</p>
+                                <br>
+                                <p class="texto1">A notória gangue tem seu próprio código de conduta, que envolve lealdade, compaixão e outros princípios que devem ser respeitados. O mundo era mais hostil; a natureza e os humanos conviviam lado a lado e começavam a contemplar a modernização, a industrialização, a virada para a sociedade do futuro. Nós contamos tudo isso e mais um pouco no dossiê sobre Red Dead Redemption 2 publicado aqui no Voxel. O nosso aquecimento especial também te deixa tinindo para o jogo.</p>
+                                <br>
+                                <img src="assets/img/red1.jpg" style="width:100%"/>
+                                <br><br>
+                                <p class="texto1">Embora existissem algumas gangues remanescentes de seus tempos áureos, cujo auge se deu na segunda metade do século 19, as autoridades caçaram e desmantelaram esses grupos no limiar do século 20, e os poucos restantes resistiram por alguns anos após o início da década de 1900.</p>
+                                <br>
+                                <p class="texto1">O fim do Velho-Oeste era inevitável, e você está no meio dessa encruzilhada com um mundo enorme para ser explorado, cheio de vida selvagem e, é claro, reviravoltas conspiratórias. Após oito anos em desenvolvimento, Red Dead Redemption 2 carrega, nas costas, a responsabilidade de ser o primeiro título da Rockstar na atual geração de consoles.</p>
+                                <br>
+                            </div>
 					</div>
-                </div>
-            </div>
+				</div>
+			</div>
 			
 			<!--conteudo direita-->
 			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
+                <h5>Jogo</h5>
+                <br>
+            <div class="container jogored">
+                        <br>
+                    <div class="banner2">
+                        <img src="assets/img/red.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="icones2">
+                    <p><i class="fab fa-playstation"></i></p>
+                    <p><i class="fab fa-xbox"></i></p>
+                    </div>
+                    <br>
+                    <a href="red.php" class="gtalink">Red Dead Redemption 2</a>
                 </div>
+            </div>
 			</div>
-		</div>
-	</div>
-	</div>
-	
-	<br><br><br><br><hr>
+        </div>
+	<br><br><br><br>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>
@@ -174,7 +154,7 @@
         </center>
 	</footer>
 		
-		
+        
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

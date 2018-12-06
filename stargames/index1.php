@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/index1.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/index1.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/index2.css" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="icon" href="assets/img/star.png"/>
 		<title>StarGames</title>
@@ -12,9 +13,9 @@
 	<body>
 	<!---menu navbar---------------->
 	
-		<nav class="navbar navbar-expand-lg" style="background-color:#1C1C1C;height: 105px;">
+		<nav class="navbar navbar-expand-lg" style="height:210px;">
 			<div class="container">
-                <a class="navbar-brand" href="index1.php">
+                <a class="navbar-brand logo" href="index1.php">
                     <img src="assets/img/starlogo.png" width="80" height="80" alt="">
                   </a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
@@ -23,34 +24,28 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <div class="nov2">
-                            <li class="nav-item active">
+                            <li class="nav-item active star">
                                 <a class="nav-link" href="index1.php">STAR <span class="sr-only">(current)</span></a>
                             </li>
                         </div>
                     </ul>
-                    
-					<ul class="navbar-nav mr-auto ml-5 nov4">
-                        <div class="nov4 row">
+                    <div class="menu1">
+					<ul class="navbar-nav nov4">
 						<li class="nav-item">
-							<a class="nav-link" href="analises.php">Análises</a>
+							<a class="nav-link" href="analises.php">Análises </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="todosjogos.php">Todos os jogos</a>
+							<a class="nav-link" href="todosjogos.php"> Todos os jogos</a>
 						</li>
-                        </div>
-					</ul>
-					<div class="form-inline my-2 my-lg-0">
-						<ul class="navbar-nav mr-auto nov4">
-                            <div class="nov4 row">
-							<li class="nav-item">
-								<a href="" class="nav-link"><li class="nav-item">Cadastre-se</li></a>
-							</li>
-							<li class="nav-item">
-								<a href="" class="nav-link"><li class="nav-item">Login</li></a>
-							</li>
-                            </div>    
+						<li class="nav-item">
+							<a href="#" class="nav-link"><li class="nav-item"> Cadastre-se</li></a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><li class="nav-item"> Login</li></a>
+						</li>   
 						</ul>
 					</div>
+                    </div>
 				</div>
 			</div>
 		</nav>
@@ -58,7 +53,7 @@
 	<!---banner ------------------>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center" id="topo" style=" height:350px">
+			<div class="col-sm-12 col-md-12 col-lg-12 text-center" id="topo">
              <div class="container-fluid">
                 <div id="banner">
                 <center>
@@ -108,8 +103,7 @@
 		   </div>
 	   </div>
         </div>    
-		<br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br>
+		<br><br>
                
 	<!---conteudo---------------->
 	<div class="container">

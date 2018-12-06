@@ -45,89 +45,68 @@
 						</li>   
 						</ul>
 					</div>
+                    </div>
 				</div>
 			</div>
 		</nav>
 		
 	<!---banner -->
-        <div class="container">
-            <div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);">
+	
+			<div class="col-md-12 topohit" style=" height:450px">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="container">
-                <h1 style="color:white;">Últimas Analíses</h1>
-                </div>    
+                <p>SEJA O PRIMEIRO A COMENTAR</p>
+                <h1>ANALÍSE HITMAN 2</h1>
+                </div>
             </div>
-        </div>
 
-		<br><br>
+		<br><br><br><br>
 		
 	<!---conteudo-->
 	<div class="container">
-	<div class="col-12">
 		<div class="row">
 		<!--conteudo esquerda-->
 			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
-					<div class="row">
-						<div class="col-5">
-                            <a href="jogos1.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos1.php">Analíse Grand Theft Auto V</a></h1>
-                                <p class="texto1">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É...</p>
-							</div>
-						</div>
+				<div class="container">
+						<div class="col-12">
+                            <div class="texto">
+                                <p class="texto1">Hitman 2 (o segundo jogo da série a receber esse nome) poderia muito bem ser considerado como uma “segunda temporada” do game lançado pela IO Interactive em 2016. Há indícios de que essa realmente era a ideia original do estúdio, que iniciou o desenvolvimento da sequência ainda sob a aba da Square Enix — que decidiu não continuar dando suporte ao estúdio no meio do processo.</p>
+                                <br>
+                                <p class="texto1">Agora agindo de forma independente (com ajuda da Warner Bros. no processo de publicação), o estúdio entrega uma experiência que não muda o que funcionou no jogo anterior, mas sim refina suas ideias e dá ao jogador ainda mais opções de desenvolver sua criatividade. O objetivo final é sempre matar os alvos indicados, mas isso não é tão simples quanto pode parecer em um primeiro momento.</p>
+                                <br>
+                                <p class="texto1"> Na pele de um assassino profissional sem sentimentos, seu desafio vai ser cumprir suas missões sem ser notado, o que exige um belo poder de observação e conhecimentos sobre as regras do mundo a seu redor. Repleto de possibilidades, Hitman 2 é um ótimo game furtivo e que tem tudo para agradar aos fãs de longa data da IO.</p>
+                                <br>
+                                <img src="assets/img/hitman1.jpg" style="width:100%"/>
+                                <br><br>
+                                <p class="texto1">Mesmo tendo meus problemas com o modo Sniper Assassin e com a maneira como a história é contada, devo dizer que Hitman 2 é um game repleto de acertos, que poderiam ser ainda maiores não fossem os bugs que eu enfrentei. Depois que você entende as regras desse universo, o game se revela como um playground divertido de jogar, em que seus erros servem como aprendizados para melhorar suas habilidades de assassinato — mal posso esperar para ver como a IO Interactive evolui a experiência nos próximos meses.</p>
+                                <br>
+                            </div>
 					</div>
-                </div>
-            </div>
+				</div>
+			</div>
 			
 			<!--conteudo direita-->
 			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
+                <h5>Jogo</h5>
+                <br>
+            <div class="container jogohit">
+                        <br>
+                    <div class="banner2">
+                        <img src="assets/img/hit.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="icones2">
+                    <p><i class="fab fa-playstation"></i></p>
+                    <p><i class="fab fa-xbox"></i></p>
+                    <p><i class="fas fa-desktop"></i></p>
+                    </div>
+                    <br>
+                    <a href="hit.php" class="gtalink">Hitman 2</a>
                 </div>
+            </div>
 			</div>
-		</div>
-	</div>
-	</div>
-	
-	<br><br><br><br><hr>
+        </div>
+	<br><br><br><br>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>
@@ -174,7 +153,7 @@
         </center>
 	</footer>
 		
-		
+        
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

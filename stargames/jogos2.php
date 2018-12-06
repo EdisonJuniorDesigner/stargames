@@ -45,89 +45,66 @@
 						</li>   
 						</ul>
 					</div>
+                    </div>
 				</div>
 			</div>
 		</nav>
 		
 	<!---banner -->
-        <div class="container">
-            <div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);">
+	
+			<div class="col-md-12 topogod" style=" height:450px">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="container">
-                <h1 style="color:white;">Últimas Analíses</h1>
-                </div>    
+                <p>SEJA O PRIMEIRO A COMENTAR</p>
+                <h1>ANALÍSE GOD OF WAR (2018)</h1>
+                </div>
             </div>
-        </div>
 
-		<br><br>
+		<br><br><br><br>
 		
 	<!---conteudo-->
 	<div class="container">
-	<div class="col-12">
 		<div class="row">
 		<!--conteudo esquerda-->
 			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
-					<div class="row">
-						<div class="col-5">
-                            <a href="jogos1.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos1.php">Analíse Grand Theft Auto V</a></h1>
-                                <p class="texto1">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É...</p>
-							</div>
-						</div>
+				<div class="container">
+						<div class="col-12">
+                            <div class="texto">
+                                <p class="texto1">Como diria o Capitão Nascimento, dos filmes “Tropa de Elite”: o inimigo agora é outro. E não vale ilustrar o álbum de figurinhas com personagenzinhos da Marvel, oriundos de “Vingadores” e afins. Nada de lutinhas cheias de piadinhas e humor forçado. Não estamos na Marvel, na DC ou em nenhuma outra casa de heróis: estamos nas terras nórdicas de God of War, que migrou da mitologia grega para a escandinava, categorizada no que se pode referir aos países localizados no norte da Europa, como Dinamarca, Finlândia, Islândia, Noruega e Suécia.</p>
+                                <br>
+                                <p class="texto1">É lá que Kratos foi parar depois de ter aniquilado o panteão inteiro do Olimpo. A essa altura do campeonato, podemos falar abertamente sobre os títulos anteriores sem preocupações com spoilers, certo? Eles carregam suma importância para a composição desta análise. Portanto, todo mundo sabe que Kratos exterminou brutalmente Poseidon, Ares, Helios, Hermes, Cronos, as Irmãs do Destino, Hércules, Hades e outros que conspiraram para que o espartano pagasse uma dívida de alma com o capeta – neste caso, Zeus, que orquestrou a trama contra o fantasma de Esparta. Ares foi apenas uma porta de entrada que serviu, de certa forma, como bode expiatório ao ex-general espartano.</p>
+                                <br>
+                                <p class="texto1">Um calote injusto, uma infração ao bom senso por puros interesses escusos: os deuses, no fundo, só querem isso. Curioso utilizar God of War para traçar os paralelos que a franquia tem com o que essas figuras lendárias representam em suas respectivas mitologias – e eis que a série consegue respeitar a fidelidade dessa natureza ao mesmo tempo em que insere sua própria ficção. É o que Quentin Tarantino faz em seus filmes, por exemplo, assim como Hideo Kojima executou em Metal Gear. “Bastardos Inglórios” tem a Segunda Guerra Mundial, mas mostra uma versão alternativa de Hitler. Metal Gear tem o patriotismo norte-americano e também terrorismo. Enfim, e por aí vai.</p>
+                                <br>
+                                <img src="assets/img/god1.jpg" style="width:100%"/>
+                                <br><br>
+                                <p class="texto1">Senhoras e senhores, God of War está aqui. Renascido.</p>
+                                <br>
+                            </div>
 					</div>
-                </div>
-            </div>
+				</div>
+			</div>
 			
 			<!--conteudo direita-->
 			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
+                <h5>Jogo</h5>
+                <br>
+            <div class="container jogogod">
+                        <br>
+                    <div class="banner2">
+                        <img src="assets/img/god.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="icones2">
+                    <p><i class="fab fa-playstation"></i></p>
+                    </div>
+                    <br>
+                    <a href="god.php" class="gtalink">God Of War (2018)</a>
                 </div>
+            </div>
 			</div>
-		</div>
-	</div>
-	</div>
-	
-	<br><br><br><br><hr>
+        </div>
+	<br><br><br><br>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>
@@ -174,7 +151,7 @@
         </center>
 	</footer>
 		
-		
+        
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

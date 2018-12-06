@@ -51,13 +51,26 @@
 		</nav>
 		
 	<!---banner -->
-        <div class="container">
-            <div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);">
+	
+			<div class="col-md-12 godtopo" style=" height:300px">
+                <br><br><br>
                 <div class="container">
-                <h1 style="color:white;">Todos os Jogos</h1>
-                </div>    
+                <div class="row">
+                <div class="col-3">
+                    <div class="godbanner">
+                    </div>
+                </div>
+                <div class="col-9">
+                <br>
+                <div class="icones">
+                <p><i class="fab fa-playstation"></i></p>
+                </div>
+                <br>
+                <h1>God Of War (2018)</h1>
+                </div>
+                </div>
+                </div>
             </div>
-        </div>
 
 		<br><br>
 		
@@ -70,135 +83,62 @@
 				<div class="container" style="width:650px; height:200px;">
 					<div class="row">
 						<div class="col-5">
-                            <a href="gta.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
+                            <a href="jogos2.php"><img class="container-fluid" src="assets/img/godbanner.jpg" alt="Card image cap"></a> 
 						</div>
 						<div class="col-7">
 							<div class="gtalink2">
-								<h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fas fa-desktop"></i></p>
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
+								<h1 class="card-title"><a href="jogos2.php">Analíse God Of War (2018)</a></h1>
+                                <p class="texto1">Como diria o Capitão Nascimento, dos filmes “Tropa de Elite”: o inimigo agora é outro. E não vale ilustrar o álbum de...</p>
 							</div>
 						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="god.php"><img class="container-fluid" src="assets/img/godbanner.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="god.php">God Of War (2018)</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fab fa-playstation"></i></p>
-                                </div>
-                            </div>
-						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="red.php"><img class="container-fluid" src="assets/img/red3.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="red.php">Red Dead Redemption 2</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
-                            </div>
-						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="dark.php"><img class="container-fluid" src="assets/img/dark5.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="dark.php">Darksiders 3</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fas fa-desktop"></i></p>
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
-                            </div>
-						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="hit.php"><img class="container-fluid" src="assets/img/hitman5.png" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="hit.php">Hitman 2</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fas fa-desktop"></i></p>
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
-                            </div>
-						</div>
-                    </div>
+					</div>
                 </div>
             </div>
 			
 			<!--conteudo direita-->
 			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/gtabanner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-                </div>
+            <div class="container ficha">
+					<div><h2>Ficha Técnica</h2></div>
+					<div class="caixaficha">
+                            <p>Data de lançamento:</p>
+                            <p>20/04/2018</p>
+                    </div>
+                    <br>
+                    <div class="caixaficha">
+						<div class="tituloAnalise">
+                            <p>Classificação:</p>
+                            <p>Para maiores de 18 anos</p>
+						</div>
+                    </div>
+                    <br>
+                    <div class="caixaficha">
+						<div class="tituloAnalise">
+                            <p>Desenvolvedora:</p>
+                            <p>Sony Santa Monica</p>
+						</div>
+                    </div>
+                    <br>
+                    <div class="caixaficha">
+						<div class="tituloAnalise">
+                            <p>Distribuidora:</p>
+                            <p>Sony</p>
+						</div>
+                    </div>
+                    <br>
+                    <div class="caixaficha">
+						<div class="tituloAnalise">
+                            <p>Número de jogadores:</p>
+                            <p>1-1</p>
+						</div>
+                    </div>
+                    <br>
+            </div>
 			</div>
 		</div>
 	</div>
 	</div>
 	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+	<br><br><br><br><hr>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>

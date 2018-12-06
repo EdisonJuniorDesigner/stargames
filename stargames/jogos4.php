@@ -45,89 +45,68 @@
 						</li>   
 						</ul>
 					</div>
+                    </div>
 				</div>
 			</div>
 		</nav>
 		
 	<!---banner -->
-        <div class="container">
-            <div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);">
+	
+			<div class="col-md-12 topodark" style=" height:450px">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="container">
-                <h1 style="color:white;">Últimas Analíses</h1>
-                </div>    
+                <p>SEJA O PRIMEIRO A COMENTAR</p>
+                <h1>ANALÍSE DARKSIDERS 3</h1>
+                </div>
             </div>
-        </div>
 
-		<br><br>
+		<br><br><br><br>
 		
 	<!---conteudo-->
 	<div class="container">
-	<div class="col-12">
 		<div class="row">
 		<!--conteudo esquerda-->
 			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
-					<div class="row">
-						<div class="col-5">
-                            <a href="jogos1.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos1.php">Analíse Grand Theft Auto V</a></h1>
-                                <p class="texto1">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É...</p>
-							</div>
-						</div>
+				<div class="container">
+						<div class="col-12">
+                            <div class="texto">
+                                <p class="texto1">Sempre sinto saudades de um hack’n’slash raiz. Como bom puritano que sou, prefiro que certas coisas se mantenham ligadas ao passado e, ao mesmo tempo, saibam evoluir com a modernidade. E sempre existe exceção à regra – God of War, por exemplo, soube se adaptar aos tempos contemporâneos, embora eu não esconda meu favoritismo pelo jeitão antigo da franquia.</p>
+                                <br>
+                                <p class="texto1">Em algum lugar desse subgênero de ação, Darksiders se encontra como uma alternativa diferente, pois adiciona mundo aberto e o tempero Zelda à fórmula. O primeiro, lançado em 2010, não necessariamente foi um super-renome de crítica, mas rapidamente conquistou a fidelidade dos jogadores ao trazer uma abordagem diferente sobre os Quatro Cavaleiros do Apocalipse, descritos em formato bíblico de maneira universal, em visões proféticas sobre o fim dos tempos.</p>
+                                <br>
+                                <p class="texto1">O segundo, de 2012, intensificou a faceta RPG que o primeiro beliscou, mas já dividiu opiniões – Morte nem de longe tem o mesmo carisma de Guerra, por exemplo, e a história não se sustenta com a mesma adrenalina conspiratória do anterior.</p>
+                                <br>
+                                <img src="assets/img/dark2.jpg" style="width:100%"/>
+                                <br><br>
+                                <p class="texto1">A franquia quase apagou a luz até ser abraçada pela THQ Nordic e, então, enxergar uma longínqua oportunidade de ressurgir com Darksiders 3. Não exatamente com a mesma popularidade, não com o mesmo apelo, mas sob a mesma premissa: entregar um hack’n’slash raiz embalado por fundo mitológico e recheado de conteúdo. Será que, após esse hiato, com tudo que vivenciamos e experimentamos nos últimos seis anos, a saudade é a mesma?</p>
+                                <br>
+                            </div>
 					</div>
-                </div>
-            </div>
+				</div>
+			</div>
 			
 			<!--conteudo direita-->
 			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
+                <h5>Jogo</h5>
+                <br>
+            <div class="container jogodark">
+                        <br>
+                    <div class="banner2">
+                        <img src="assets/img/dark3.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="icones2">
+                    <p><i class="fab fa-playstation"></i></p>
+                    <p><i class="fab fa-xbox"></i></p>
+                    <p><i class="fas fa-desktop"></i></p>
+                    </div>
+                    <br>
+                    <a href="dark.php" class="gtalink">Darksiders 3</a>
                 </div>
+            </div>
 			</div>
-		</div>
-	</div>
-	</div>
-	
-	<br><br><br><br><hr>
+        </div>
+	<br><br><br><br>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>
@@ -174,7 +153,7 @@
         </center>
 	</footer>
 		
-		
+        
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
