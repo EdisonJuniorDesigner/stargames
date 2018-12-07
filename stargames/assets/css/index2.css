@@ -13,6 +13,7 @@
         text-align: bottom;
 }
 .gtatopo{
+    height: 300px;
     text-align: justify;
     color: #fff;
     background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.7) 100%),url(../img/gtabanner.jpg);
@@ -28,10 +29,8 @@
         text-align: bottom;
 }
 .banner1{
-    background-image: url(../img/gtabanner2.jpg);
     width: 135px;
     margin-right: 50%;
-    transform: translateX(90%);
     height: 190px;
     vertical-align: middle;
     border-style: none;
@@ -149,6 +148,7 @@
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
 }
 .godtopo{
+    height:300px;
     text-align: justify;
     color: #fff;
     background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.7) 100%),url(../img/god4.jpg);
@@ -173,6 +173,7 @@
     border-style: none;
 }
 .redtopo{
+    height:300px;
     text-align: justify;
     color: #fff;
     background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.7) 100%),url(../img/redbanner.jpg);
@@ -223,6 +224,7 @@
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
 }
 .darktopo{
+    height:300px;
     text-align: justify;
     color: #fff;
     background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.7) 100%),url(../img/darkbanner.png);
@@ -273,6 +275,7 @@
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
 }
 .hittopo{
+    height:300px;
     text-align: justify;
     color: #fff;
     background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.7) 100%),url(../img/hitmanbanner.jpg);
@@ -340,5 +343,35 @@
         height: 210px;
     }
 }
-@media only screen and (min-width:990px){
+@media only screen and (max-width:1159px){
+    .banner2{
+        width: 135px;
+        transform: translateX(40%);
+        height: 190px;
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+@media only screen and (max-width:765px){
+    .banner2{
+        width: 135px;
+        transform: translateX(125%);
+        height: 190px;
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+@media only screen and (max-width:768px){
+    .gtatopo{
+        height: 450px;
+    }
+    .darktopo{
+        height: 450px;
+    }.hittopo{
+        height: 450px;
+    }.godtopo{
+        height: 450px;
+    }.redtopo{
+        height: 450px;
+    }
 }

@@ -11,7 +11,7 @@
 		<title>StarGames</title>
 	</head>
 	<body>
-	<!---menu navbar---------------->
+	<!---menu navbar-->
 	
 		<nav class="navbar navbar-expand-lg" style="height:210px;">
 			<div class="container">
@@ -50,10 +50,10 @@
 			</div>
 		</nav>
 		
-	<!---banner ------------------>
+	<!---banner -->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12 text-center" id="topo">
+			<div class="col-12 text-center" id="topo">
              <div class="container-fluid">
                 <div id="banner">
                 <center>
@@ -61,29 +61,27 @@
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 40px;">
                             <div class="carousel-inner" style="border-radius: 15px;box-shadow: 0px 10px 35px black;">
                               <div class="carousel-item active">
-                                  <a href="#">
-                                      <img class="d-block w-100" src="assets/img/banner1.jpg" alt="First slide">
+                                  <a href="jogos1.php">
+                                      <img class="d-block w-100" src="assets/img/gtav.jpg" alt="First slide">
                                   </a>
-                                    <div class="carousel-caption d-none d-md-block" style="text-align:justify;">
-                                        <h5 style="font-size: 35px;">O Famoso Miranha</h5>
+                                    <div class="carousel-caption d-none d-md-block" style="text-align:center;">
+                                        <h5 style="font-size: 35px;text-shadow: 2px 2px 1px #1C1C1C;">Análise de Grand Theft Auto V</h5>
                                     </div>
                               </div>
                               <div class="carousel-item">
-                                    <a href="#">
-                                      <img class="d-block w-100" src="assets/img/banner2.jpg" alt="Second slide">
+                                    <a href="jogos2.php">
+                                      <img class="d-block w-100" src="assets/img/god3.jpg" alt="Second slide">
                                     </a>
-                                  <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                    <div class="carousel-caption d-none d-md-block" style="text-align:center;">
+                                        <h5 style="font-size: 35px;text-shadow: 2px 2px 1px #1C1C1C;">God Of War está de volta, renascido.</h5>
                                     </div>
                               </div>
                               <div class="carousel-item">
-                                  <a href="#">
-                                <img class="d-block w-100" src="assets/img/banner3.jpg" alt="Third slide">
+                                  <a href="jogos5.php">
+                                <img class="d-block w-100" src="assets/img/hitman.jpg" alt="Third slide">
                                   </a>
-                                  <div class="carousel-caption d-none d-md-block">
-                                        <h5>...</h5>
-                                        <p>...</p>
+                                  <div class="carousel-caption d-none d-md-block" style="text-align:center;">
+                                        <h5 style="font-size: 35px;text-shadow: 2px 2px 1px #1C1C1C;">Hitman 2 o melhor jogo do genêro</h5>
                                     </div>
                               </div>
                             </div>
@@ -105,25 +103,25 @@
         </div>    
 		<br><br>
                
-	<!---conteudo---------------->
+	<!---conteudo-->
 	<div class="container">
 	<div class="col-12">
 		<div class="row">
-		<!--------conteudo esquerda--------------------------------->
+		<!--conteudo esquerda-->
 			<div class="col-xs-12 col-8 col-sm-12 col-md-8">
                  <div class="nov1">
-                    <p><a href="#">Novidades</a></p>
+                    <p><a href="todososjogos.php" style="display:inline;">Veja Todos os jogos</a></p>
                 </div>
 				<div class="card1">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-5">
-                                <a href="#">
-							<img class="card-img-top" src="assets/img/banner1.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                <a href="gta.php">
+							<img class="card-img-top" src="assets/img/gtabanner1.jpg" alt="Card image cap" style="border-radius: 10px;">
                                 </a>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-7">
 							<div class="card-body">
-                                <h1 class="card-title"><a href="#">Spoder-Man é considerado um dos melhores jogos do ano</a></h1>
+                                <h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
                             </div>
 						</div>
 					</div>
@@ -132,13 +130,13 @@
 				<div class="card2">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-5">
-                                <a href="#">
-							<img class="card-img-top" src="assets/img/banner1.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                <a href="god.php">
+							<img class="card-img-top" src="assets/img/godbanner.jpg" alt="Card image cap" style="border-radius: 10px;">
                                 </a>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-7">
 							<div class="card-body">
-                                <h1 class="card-title"><a href="#">Spoder-Man é considerado um dos melhores jogos do ano</a></h1>
+                                <h1 class="card-title"><a href="god.php">God of War (2018)</a></h1>
                             </div>
 						</div>
 					</div>
@@ -148,61 +146,62 @@
 					<div class="row">
 						<div class="col-xs-4 col-sm-12 col-md-5">
                             <div class="over">
-                                <a href="#">
-							<img class="card-img-top" src="assets/img/banner1.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                <a href="red.php">
+							<img class="card-img-top" src="assets/img/red3.jpg" alt="Card image cap" style="border-radius: 10px;">
                                 </a>
                             </div>
 						</div>
 						<div class="col-xs-4 col-sm-12 col-md-7">
 							<div class="card-body">
-                                <h1 class="card-title"><a href="#">Spoder-Man é considerado um dos melhores jogos do ano</a></h1>
+                                <h1 class="card-title"><a href="red.php">Red Dead Redemption 2</a></h1>
                             </div>
 						</div>
 					</div>
 				</div>
 			</div>
 			
-			<!--------conteudo direita--------------------------------->
+			<!--conteudo direita-->
 			<div class="col-md-4">
 				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
                         <div class="nov3">
-                        <p><a href="analises.php">Análises</a></p>
+                        <p><a href="analises.php">Analíses</a></p>
                         </div>
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
+					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/gtabanner1.jpg);height:95px">
 						<div class="card-body2">
                             <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
+                            <h1 class="card-title"><a href="jogos1.php">Grand Theft Auto V</a></h1>
                         </div>
 					</div>
 					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
+					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/godbanner2.jpg);height:95px">
 						<div class="card-body2">
                             <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
+                            <h1 class="card-title"><a href="jogos2.php">God Of War (2018)</a></h1>
                         </div>
 					</div>
 					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
+					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/red3.jpg);height:95px">
 						<div class="card-body2">
                             <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
+                            <h1 class="card-title"><a href="jogos3.php">Red Dead Redemption 2</a></h1>
                         </div>
 					</div>
 					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
+					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/dark5.jpg);height:95px">
 						<div class="card-body2">
                             <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
+                            <h1 class="card-title"><a href="jogos4.php">Darksiders 3</a></h1>
+                        </div>
+					</div>
+					
+					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/hitman7.jpg);height:95px">
+						<div class="card-body2">
+                            <br>
+                            <h1 class="card-title"><a href="jogos5.php">Hitman 2</a></h1>
                         </div>
 					</div>
                 </div>
+			</div>
 			</div>
 		</div>
 	</div>

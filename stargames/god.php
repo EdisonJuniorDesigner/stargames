@@ -52,15 +52,16 @@
 		
 	<!---banner -->
 	
-			<div class="col-md-12 godtopo" style=" height:300px">
+			<div class="col-md-12 godtopo">
                 <br><br><br>
                 <div class="container">
                 <div class="row">
-                <div class="col-3">
-                    <div class="godbanner">
+                <div class="col-md-3">
+                <div class="banner1">
+                        <img src="assets/img/god.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-md-9">
                 <br>
                 <div class="icones">
                 <p><i class="fab fa-playstation"></i></p>
@@ -77,26 +78,26 @@
 	<!---conteudo-->
 	<div class="container">
 	<div class="col-12">
-		<div class="row">
-		<!--conteudo esquerda-->
-			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
+    <div class="card2">
 					<div class="row">
-						<div class="col-5">
-                            <a href="jogos2.php"><img class="container-fluid" src="assets/img/godbanner.jpg" alt="Card image cap"></a> 
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="jogos2.php">
+							<img class="card-img-top" src="assets/img/godbanner.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
 						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos2.php">Analíse God Of War (2018)</a></h1>
-                                <p class="texto1">Como diria o Capitão Nascimento, dos filmes “Tropa de Elite”: o inimigo agora é outro. E não vale ilustrar o álbum de...</p>
-							</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos2.php">Análise God Of War (2018)</a></h1>
+                                <p style="font-size: 20px;">Como diria o Capitão Nascimento, dos filmes “Tropa de Elite”: o inimigo agora é outro. E não vale ilustrar o álbum de figurinhas com personagenzinhos da Marvel, oriundos de “Vingadores” e afins....</p>
+                            </div>
 						</div>
 					</div>
-                </div>
-            </div>
-			
+				</div>
+			<br><br><br>
+            <!--conteudo direita-->
+            <center>
 			<!--conteudo direita-->
-			<div class="col-md-4">
+			<div class="col-sm-8 col-md-8">
             <div class="container ficha">
 					<div><h2>Ficha Técnica</h2></div>
 					<div class="caixaficha">
@@ -133,8 +134,8 @@
                     </div>
                     <br>
             </div>
-			</div>
-		</div>
+        </div>
+    </center>
 	</div>
 	</div>
 	

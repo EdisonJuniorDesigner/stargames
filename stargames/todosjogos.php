@@ -63,142 +63,98 @@
 		
 	<!---conteudo-->
 	<div class="container">
-	<div class="col-12">
 		<div class="row">
 		<!--conteudo esquerda-->
-			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
+        <div class="col-xs-12 col-8 col-sm-12 col-md-8">
+				<div class="card1">
 					<div class="row">
-						<div class="col-5">
-                            <a href="gta.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="gta.php">
+							<img class="card-img-top" src="assets/img/gtabanner1.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
 						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fas fa-desktop"></i></p>
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
-							</div>
-						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="god.php"><img class="container-fluid" src="assets/img/godbanner.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="god.php">God Of War (2018)</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fab fa-playstation"></i></p>
-                                </div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
                             </div>
 						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="red.php"><img class="container-fluid" src="assets/img/red3.jpg" alt="Card image cap"></a> 
+					</div>
+				</div>
+			     <br>
+				<div class="card2">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="god.php">
+							<img class="card-img-top" src="assets/img/godbanner.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
 						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="red.php">Red Dead Redemption 2</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="god.php">God Of War (2018)</a></h1>
                             </div>
 						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="dark.php"><img class="container-fluid" src="assets/img/dark5.jpg" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="dark.php">Darksiders 3</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fas fa-desktop"></i></p>
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
+					</div>
+				</div>
+				<br>
+				<div class="card3">
+					<div class="row">
+						<div class="col-xs-4 col-sm-12 col-md-5">
+                            <div class="over">
+                                <a href="red.php">
+							<img class="card-img-top" src="assets/img/red3.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
                             </div>
 						</div>
-                    </div>
-                    <hr><br>
-                    <div class="row">
-						<div class="col-5">
-                            <a href="hit.php"><img class="container-fluid" src="assets/img/hitman5.png" alt="Card image cap"></a> 
-						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="hit.php">Hitman 2</a></h1>
-                                <p class="texto1">PLATAFORMA</p>
-                                <div class="icones">
-                                <p><i class="fas fa-desktop"></i></p>
-                                <p><i class="fab fa-playstation"></i></p>
-                                <p><i class="fab fa-xbox"></i></p>
-                                </div>
+						<div class="col-xs-4 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="red.php">Red Dead Redemption 2</a></h1>
                             </div>
 						</div>
-                    </div>
+					</div>
+				</div>
+                <br>
+                <div class="card3">
+					<div class="row">
+						<div class="col-xs-4 col-sm-12 col-md-5">
+                            <div class="over">
+                                <a href="dark.php">
+							<img class="card-img-top" src="assets/img/dark5.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
+                            </div>
+						</div>
+						<div class="col-xs-4 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="dark.php">Darksiders 3</a></h1>
+                            </div>
+						</div>
+					</div>
+				</div>
+                <br>
+                <div class="card3">
+					<div class="row">
+						<div class="col-xs-4 col-sm-12 col-md-5">
+                            <div class="over">
+                                <a href="hit.php">
+							<img class="card-img-top" src="assets/img/hitman5.png" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
+                            </div>
+						</div>
+						<div class="col-xs-4 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="hit.php">Hitman 2</a></h1>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
                 </div>
             </div>
 			
 			<!--conteudo direita-->
-			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 100%),url(assets/img/gtabanner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-                </div>
-			</div>
 		</div>
 	</div>
 	</div>
-	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+	<hr>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>

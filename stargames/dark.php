@@ -52,15 +52,16 @@
 		
 	<!---banner -->
 	
-			<div class="col-md-12 darktopo" style=" height:300px">
+			<div class="col-md-12 darktopo">
                 <br><br><br>
                 <div class="container">
                 <div class="row">
-                <div class="col-3">
-                    <div class="darkbanner">
+                <div class="col-md-3">
+                <div class="banner1">
+                        <img src="assets/img/dark3.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-md-9">
                 <br>
                 <div class="icones">
                 <p><i class="fab fa-playstation"></i></p>
@@ -79,26 +80,26 @@
 	<!---conteudo-->
 	<div class="container">
 	<div class="col-12">
-		<div class="row">
-		<!--conteudo esquerda-->
-			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
+    <div class="card2">
 					<div class="row">
-						<div class="col-5">
-                            <a href="jogos4.php"><img class="container-fluid" src="assets/img/dark5.jpg" alt="Card image cap"></a> 
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="jogos4.php">
+							<img class="card-img-top" src="assets/img/dark5.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
 						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos4.php">Analíse Darksiders 3</a></h1>
-                                <p class="texto1">Sempre sinto saudades de um hack’n’slash raiz. Como bom puritano que sou, prefiro que certas coisas se...</p>
-							</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos4.php">Análise Darksiders 3</a></h1>
+                                <p style="font-size: 20px;">Sempre sinto saudades de um hack’n’slash raiz. Como bom puritano que sou, prefiro que certas coisas se mantenham ligadas ao passado e, ao mesmo tempo, saibam evoluir com a modernidade. E sempre existe exceção...</p>
+                            </div>
 						</div>
 					</div>
-                </div>
-            </div>
-			
+				</div>
+			<br><br><br>
+            <!--conteudo direita-->
+            <center>
 			<!--conteudo direita-->
-			<div class="col-md-4">
+			<div class="col-md-8">
             <div class="container ficha">
 					<div><h2>Ficha Técnica</h2></div>
 					<div class="caixaficha">
@@ -135,7 +136,8 @@
                     </div>
                     <br>
             </div>
-			</div>
+            </div>
+            </center>
 		</div>
 	</div>
 	</div>

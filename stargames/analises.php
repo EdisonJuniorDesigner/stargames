@@ -62,72 +62,98 @@
 		
 	<!---conteudo-->
 	<div class="container">
-	<div class="col-12">
 		<div class="row">
 		<!--conteudo esquerda-->
-			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
+        <div class="col-xs-12 col-8 col-sm-12 col-md-8">
+				<div class="card1">
 					<div class="row">
-						<div class="col-5">
-                            <a href="jogos1.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="jogos1.php">
+							<img class="card-img-top" src="assets/img/gtabanner1.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
 						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos1.php">Analíse Grand Theft Auto V</a></h1>
-                                <p class="texto1">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É...</p>
-							</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos1.php">Análise Grand Theft Auto V</a></h1>
+                            </div>
 						</div>
 					</div>
+				</div>
+			     <br>
+				<div class="card2">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="jogos2.php">
+							<img class="card-img-top" src="assets/img/godbanner.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos2.php">Análise God Of War (2018)</a></h1>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="card3">
+					<div class="row">
+						<div class="col-xs-4 col-sm-12 col-md-5">
+                            <div class="over">
+                                <a href="jogos3.php">
+							<img class="card-img-top" src="assets/img/red3.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
+                            </div>
+						</div>
+						<div class="col-xs-4 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos3.php">Análise Red Dead Redemption 2</a></h1>
+                            </div>
+						</div>
+					</div>
+				</div>
+                <br>
+                <div class="card3">
+					<div class="row">
+						<div class="col-xs-4 col-sm-12 col-md-5">
+                            <div class="over">
+                                <a href="jogos4.php">
+							<img class="card-img-top" src="assets/img/dark5.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
+                            </div>
+						</div>
+						<div class="col-xs-4 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos4.php">Análise Darksiders 3</a></h1>
+                            </div>
+						</div>
+					</div>
+				</div>
+                <br>
+                <div class="card3">
+					<div class="row">
+						<div class="col-xs-4 col-sm-12 col-md-5">
+                            <div class="over">
+                                <a href="jogos5.php">
+							<img class="card-img-top" src="assets/img/hitman5.png" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
+                            </div>
+						</div>
+						<div class="col-xs-4 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos5.php">Análise Hitman 2</a></h1>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
                 </div>
             </div>
 			
 			<!--conteudo direita-->
-			<div class="col-md-4">
-				<div class="container-fluid" style="background-color:#1C1C1C;width:100%;border-radius: 15px 15px 0px 0px;">
-                        <div class="nov3">
-                        <p><a href="analises.php">Analíses</a></p>
-                        </div>
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-					
-					<div class="col-md-12" style="background-image: url(assets/img/banner1.jpg);height:95px">
-						<div class="card-body2">
-                            <br>
-                            <h1 class="card-title"><a href="#">Marvel’s Spider-Man</a></h1>
-                        </div>
-					</div>
-                </div>
-			</div>
 		</div>
 	</div>
 	</div>
-	
-	<br><br><br><br><hr>
+	<hr>
 	<!---footer-->
         
 	<div style="height:50px;background: linear-gradient(to right, #b72150 0%,#dd551f 100%);"></div>

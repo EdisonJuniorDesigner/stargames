@@ -52,15 +52,16 @@
 		
 	<!---banner -->
 	
-			<div class="col-md-12 gtatopo" style=" height:300px">
+			<div class="col-md-12 gtatopo">
                 <br><br><br>
                 <div class="container">
                 <div class="row">
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="banner1">
+                        <img src="assets/img/gtabanner2.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-md-9">
                 <br>
                 <div class="icones">
                 <p><i class="fas fa-desktop"></i></p>
@@ -79,26 +80,26 @@
 	<!---conteudo-->
 	<div class="container">
 	<div class="col-12">
-		<div class="row">
 		<!--conteudo esquerda-->
-			<div class="col-md-8">
-				<div class="container" style="width:650px; height:200px;">
+            <div class="card2">
 					<div class="row">
-						<div class="col-5">
-                            <a href="jogos1.php"><img class="container-fluid" src="assets/img/gtabanner1.jpg" alt="Card image cap"></a> 
+						<div class="col-xs-12 col-sm-12 col-md-5">
+                                <a href="jogos1.php">
+							<img class="card-img-top" src="assets/img/gtabanner1.jpg" alt="Card image cap" style="border-radius: 10px;">
+                                </a>
 						</div>
-						<div class="col-7">
-							<div class="gtalink2">
-								<h1 class="card-title"><a href="jogos1.php">Analíse Grand Theft Auto V</a></h1>
-                                <p class="texto1">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É...</p>
-							</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="card-body">
+                                <h1 class="card-title"><a href="jogos1.php">Análise Grand Theft Auto V</a></h1>
+                                <p style="font-size: 20px;">Por muito tempo tentei entender quais razões fazem com que Grand Theft Auto seja o enorme fenômeno que ele é. É difícil acreditar que somente a liberdade, a violência e a temática criminosa que a imprensa geral...</p>
+                            </div>
 						</div>
 					</div>
-                </div>
-            </div>
-			
-			<!--conteudo direita-->
-			<div class="col-md-4">
+				</div>
+			<br><br><br>
+            <!--conteudo direita-->
+            <center>
+			<div class="col-md-8">
             <div class="container ficha">
 					<div><h2>Ficha Técnica</h2></div>
 					<div class="caixaficha">
@@ -135,8 +136,8 @@
                     </div>
                     <br>
             </div>
-			</div>
-		</div>
+            </div>
+            </center>
 	</div>
 	</div>
 	
