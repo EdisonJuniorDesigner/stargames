@@ -1,3 +1,8 @@
+<?php
+	require 'conexao.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -37,12 +42,29 @@
 						<li class="nav-item">
 							<a class="nav-link" href="todosjogos.php"> Todos os jogos</a>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link"><li class="nav-item"> Cadastre-se</li></a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link"><li class="nav-item"> Login</li></a>
-						</li>   
+						<?php
+                                if (!empty($_SESSION['logado']))
+                                {
+                                    ?>
+                                    <li class="nav-item" id="usuario">
+                                        <?php echo "Olá, " . $nome . "!"."&nbsp;"."&nbsp;"; ?>
+                                    </li>
+                                    <li>
+                                        <a href="logout.php">Sair</a>
+                                    </li>
+                                    <?php
+                                }
+                                else
+                                {
+                                    ?>
+                                    <li>
+                                        <a href="cadastro.php" class="nav-link"><li class="nav-item">Cadastre-se</a>
+                                    </li>
+                                        <a href="login.php" class="nav-link"><li class="nav-item">Login</li></a>
+                                    </li>
+                                    <?php
+                                }
+                            ?>   
 						</ul>
 					</div>
 				</div>
@@ -65,86 +87,47 @@
 		<div class="row">
 		<!--conteudo esquerda-->
         <div class="col-xs-12 col-8 col-sm-12 col-md-8">
-				<div class="card1">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-5">
-                                <a href="jogos1.php">
-							<img class="card-img-top" src="assets/img/gtabanner1.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="jogos1.php">Análise Grand Theft Auto V</a></h1>
+
+
+
+
+        <?php
+        	$sql = $pdo->prepare("SELECT * FROM jogos");
+
+        	if($sql->execute())
+        	{
+        		$cont = 1;
+                    while($row = $sql->fetch())
+                    {
+                        ?>
+                        <div class="card1">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-5">
+                                        <a href="jogos<?php echo $cont; ?>.php">
+                                    <img class="card-img-top" src="assets/img/<?php echo $row['imagem']; ?>" alt="<?php echo $row['imagem']; ?>" style="border-radius: 10px;">
+                                        </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-7">
+                                    <div class="card-body">
+                                        <h1 class="card-title"><a href="jogos1.php"><?php echo $row['titulo']; ?></a></h1>
+                                    </div>
+                                </div>
                             </div>
-						</div>
-					</div>
-				</div>
-			     <br>
-				<div class="card2">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-5">
-                                <a href="jogos2.php">
-							<img class="card-img-top" src="assets/img/godbanner.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="jogos2.php">Análise God Of War (2018)</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-				<br>
-				<div class="card3">
-					<div class="row">
-						<div class="col-xs-4 col-sm-12 col-md-5">
-                            <div class="over">
-                                <a href="jogos3.php">
-							<img class="card-img-top" src="assets/img/red3.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-                            </div>
-						</div>
-						<div class="col-xs-4 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="jogos3.php">Análise Red Dead Redemption 2</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-                <br>
-                <div class="card3">
-					<div class="row">
-						<div class="col-xs-4 col-sm-12 col-md-5">
-                            <div class="over">
-                                <a href="jogos4.php">
-							<img class="card-img-top" src="assets/img/dark5.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-                            </div>
-						</div>
-						<div class="col-xs-4 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="jogos4.php">Análise Darksiders 3</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-                <br>
-                <div class="card3">
-					<div class="row">
-						<div class="col-xs-4 col-sm-12 col-md-5">
-                            <div class="over">
-                                <a href="jogos5.php">
-							<img class="card-img-top" src="assets/img/hitman5.png" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-                            </div>
-						</div>
-						<div class="col-xs-4 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="jogos5.php">Análise Hitman 2</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
+                        </div>
+                        <br>
+                        <?php
+                        $cont++;
+				}
+			}
+
+        ?>
+
+
+
+
+
+
+				
 			</div>
                 </div>
             </div>
@@ -196,7 +179,7 @@
         </div>
         <center>
             <br><br>
-        <p class="copyright text-muted" style="color:white;">Copyright &copy;Star Games 2018</p>
+        <p class="copyright text-muted" style="color:white; margin: 0; padding-bottom: 1%;">Copyright &copy;Star Games 2018</p>
         </center>
 	</footer>
 		

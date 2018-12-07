@@ -1,3 +1,7 @@
+<?php
+	require 'conexao.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -64,91 +68,41 @@
 	<!---conteudo-->
 	<div class="container">
 		<div class="row">
-		<!--conteudo esquerda-->
-        <div class="col-xs-12 col-8 col-sm-12 col-md-8">
-				<div class="card1">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-5">
-                                <a href="gta.php">
-							<img class="card-img-top" src="assets/img/gtabanner1.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
+			<!--conteudo esquerda-->
+	        <div class="col-xs-12 col-8 col-sm-12 col-md-8">
+				<?php
+	        	$sql = $pdo->prepare("SELECT * FROM jogos");
+
+	        	if($sql->execute())
+	        	{
+	        		$cont = 1;
+	        		while($row = $sql->fetch())
+	        		{
+			        	?>
+			        	<div class="card1">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-5">
+			                            <a href="jogos<?php echo $cont; ?>.php">
+									<img class="card-img-top" src="assets/img/<?php echo $row['imagem']; ?>" alt="<?php echo $row['imagem']; ?>" style="border-radius: 10px;">
+			                            </a>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-7">
+									<div class="card-body">
+			                            <h1 class="card-title"><a href="jogos1.php"><?php echo $row['titulo']; ?></a></h1>
+			                        </div>
+								</div>
+							</div>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="gta.php">Grand Theft Auto V</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-			     <br>
-				<div class="card2">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-5">
-                                <a href="god.php">
-							<img class="card-img-top" src="assets/img/godbanner.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="god.php">God Of War (2018)</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-				<br>
-				<div class="card3">
-					<div class="row">
-						<div class="col-xs-4 col-sm-12 col-md-5">
-                            <div class="over">
-                                <a href="red.php">
-							<img class="card-img-top" src="assets/img/red3.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-                            </div>
-						</div>
-						<div class="col-xs-4 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="red.php">Red Dead Redemption 2</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-                <br>
-                <div class="card3">
-					<div class="row">
-						<div class="col-xs-4 col-sm-12 col-md-5">
-                            <div class="over">
-                                <a href="dark.php">
-							<img class="card-img-top" src="assets/img/dark5.jpg" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-                            </div>
-						</div>
-						<div class="col-xs-4 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="dark.php">Darksiders 3</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
-                <br>
-                <div class="card3">
-					<div class="row">
-						<div class="col-xs-4 col-sm-12 col-md-5">
-                            <div class="over">
-                                <a href="hit.php">
-							<img class="card-img-top" src="assets/img/hitman5.png" alt="Card image cap" style="border-radius: 10px;">
-                                </a>
-                            </div>
-						</div>
-						<div class="col-xs-4 col-sm-12 col-md-7">
-							<div class="card-body">
-                                <h1 class="card-title"><a href="hit.php">Hitman 2</a></h1>
-                            </div>
-						</div>
-					</div>
-				</div>
+						<br>
+						<?php
+						$cont++;
+					}
+				}
+
+	        	?>
 			</div>
-                </div>
-            </div>
+        </div>
+    </div>
 			
 			<!--conteudo direita-->
 		</div>

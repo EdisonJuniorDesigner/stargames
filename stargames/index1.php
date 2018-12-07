@@ -1,3 +1,23 @@
+<?php
+    session_start();
+    require 'conexao.php';
+
+    if (!empty($_SESSION['logado']))
+    {
+        $id = $_SESSION['logado'];
+
+        $sql = $pdo->prepare("SELECT nome FROM usuarios WHERE id_usuario = :id");
+        $sql->bindValue(":id", $id, PDO::PARAM_INT);
+        $sql->execute();
+
+        if($sql->rowCount() > 0)
+        {
+            $sql = $sql->fetch();
+            $nome = $sql['nome'];
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -37,12 +57,29 @@
 						<li class="nav-item">
 							<a class="nav-link" href="todosjogos.php"> Todos os jogos</a>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link"><li class="nav-item"> Cadastre-se</li></a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link"><li class="nav-item"> Login</li></a>
-						</li>   
+						<?php
+                                if (!empty($_SESSION['logado']))
+                                {
+                                    ?>
+                                    <li class="nav-item" id="usuario">
+                                        <?php echo "Olá, " . $nome . "!"."&nbsp;"."&nbsp;"; ?>
+                                    </li>
+                                    <li>
+                                        <a href="logout.php">Sair</a>
+                                    </li>
+                                    <?php
+                                }
+                                else
+                                {
+                                    ?>
+                                    <li>
+                                        <a href="cadastro.php" class="nav-link"><li class="nav-item">Cadastre-se</a>
+                                    </li>
+                                        <a href="login.php" class="nav-link"><li class="nav-item">Login</li></a>
+                                    </li>
+                                    <?php
+                                }
+                            ?>   
 						</ul>
 					</div>
                     </div>
@@ -100,7 +137,7 @@
 			 </div>
 		   </div>
 	   </div>
-        </div>    
+    </div>    
 		<br><br>
                
 	<!---conteudo-->
@@ -110,9 +147,44 @@
 		<!--conteudo esquerda-->
 			<div class="col-xs-12 col-8 col-sm-12 col-md-8">
                  <div class="nov1">
-                    <p><a href="todososjogos.php" style="display:inline;">Veja Todos os jogos</a></p>
+                    <p><a href="todosjogos.php" style="display:inline;">Veja Todos os jogos</a></p>
+
+
+                    <?php
+                        $sql = $pdo->prepare("SELECT * FROM jogos");
+
+                        if($sql->execute())
+                        {
+                            $cont = 1;
+                            while($row = $sql->fetch())
+                            {
+                                ?>
+                                <div class="card1">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-5">
+                                            <a href="jogos<?php echo $cont; ?>.php">
+                                                <img class="card-img-top" src="assets/img/<?php echo $row['imagem']; ?>" alt="<?php echo $row['imagem']; ?>" style="border-radius: 10px;width: 250px;"/>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-7">
+                                            <div class="card-body">
+                                                <h1 class="card-title"><a style="width: 100%"; href="jogos1.php"><?php echo $row['titulo']; ?></a></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <?php
+                                $cont++;
+                            }
+                        }
+                    ?>
+
+
+
+
                 </div>
-				<div class="card1">
+				<!-- <div class="card1">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-5">
                                 <a href="gta.php">
@@ -157,7 +229,7 @@
                             </div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			
 			<!--conteudo direita-->
